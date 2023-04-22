@@ -1,0 +1,37 @@
+.rectangle-form {
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 5rem;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  background-color: #fff;
+}
+
+.rectangle-form label {
+  font-size: 2rem;
+  width: 50%;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.rectangle-form select {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  box-shadow: none;
+  outline: none;
+}
+
+.rectangle-form select:hover {
+  border-color: #999;
+}
+
+.rectangle-form select:focus {
+  border-color: #333;
+  box-shadow: 0 0 0 2px rgba(51, 51, 51, 0.5);
+}
