@@ -1,2 +1,11 @@
+* {
+    margin: 0%;
+}
+.background-image {
+    background-image: url('./B7D729D5-572D-47B3-B87E-C14E9F58C3A9 2.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 
+}
   

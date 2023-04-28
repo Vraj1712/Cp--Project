@@ -1,3 +1,13 @@
+* {
+    margin: 0%;
+}
+.background-image {
+    background-image: url('./B7D729D5-572D-47B3-B87E-C14E9F58C3A9 2.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
 .checkbox-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -5,7 +15,7 @@
     margin: 20px;
 }
 
-.checkbox-label {
+.checkbox-label1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,14 +27,14 @@
 }
 
 
-.checkbox-label:hover {
+.checkbox-label1:hover {
     background-color: lightgray;
 }
 
 input[type="checkbox"] {
     display: block;
 }
-input[type="checlbox"]:checked + .checkbox-label {
+input[type="checlbox"]:checked + .checkbox-label1 {
     background-color: black;
     color: black;
 }
@@ -34,7 +44,7 @@ input[type="checlbox"]:checked + .checkbox-label {
     width: 300px;
     height: 300px;
     padding: 20px;
-    background-color: rgb(161, 161, 210);
+    background-color: rgb(89,163,231);
     box-shadow: 0 0 10px rgba(0,0,0, 0.1);
     border-radius:5px;
     margin: 20px;
@@ -79,7 +89,7 @@ input[type="checlbox"]:checked + .checkbox-label {
     width: 200px;
     height: 250px;
     border: 1px solid black;
-    background-color: rgb(161, 161, 210);
+    background-color:white;
     margin-right: 160px;
     margin-top: 20px;
     border-radius: 10px;
@@ -89,46 +99,87 @@ input[type="checlbox"]:checked + .checkbox-label {
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 25px;
-    margin: 0;
+    padding: 30px 3px;
+    margin-left: 0px;
+    
 }
 .tex1 {
     position: absolute;
     bottom: 0%;
     left: 0;
     width: 100%;
-    padding: 5px;
+    padding: 10px 3px;
     margin: 0;
+}
+.text2 {
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    padding: 10px 3px;
+    margin: 0;
+}
+.text3 {
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    padding: 10px 3px;
+    margin: 0;
+
 }
 
 .inner-square {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(161, 161, 210);
+    width: 150px;
+    height: 150px;
+    background-color:white;
     position: absolute;
-    top: 25%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid black;
+  
     border-radius: 5px;
 }
+.background-image1 {
+    background-image: url('./Screen Shot 2023-04-24 at 10.00.19 AM.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+}
+.background-image2{
+    background-image: url('./Screen Shot 2023-04-24 at 11.11.26 AM.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+}
+.background-image3 {
+    background-image: url('./zyrtec (1).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+}
+
+
 .square-container1 {
     display: flex;
 }
-.square1 {
+.square3 {
     width: 200px;
     height: 250px;
     border: 1px solid black;
-    background-color: rgb(161, 161, 210);
+    background-color: white;
     margin-right: 160px;
     margin-top: 20px;
     border-radius: 10px;
     
 }
-.text3 {
+.text5 {
     position: absolute;
     width: 100;
-    bottom: -50px;
+    margin-top: 100px;
     font-size: large;
     padding: 30px;
     text-align: center;
@@ -142,7 +193,7 @@ img {
     position: absolute;
     bottom: 0;
     padding: 10px;
-    background-color:rgb(161, 161, 210);
+    background-color:white;
     width: 100%;
     text-align: center;
 }

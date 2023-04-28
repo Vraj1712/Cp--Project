@@ -62,9 +62,11 @@ export default DropdownMenu;
 
 
 import React from 'react';
+
 import './DropdownMenu.css';
 
 export default function DropdownMenu() {
+    
   return (
     <div className="rectangle-form">
       <label htmlFor="dropdown1">Reaminder Frequency</label>
@@ -82,11 +84,8 @@ export default function DropdownMenu() {
 
       <label htmlFor="dropdown3">Medicine Expiry Date</label>
       <select id="dropdown3" name="dropdown3">
-        <option value="option1"></option>
-        <option value="option2">Option 2</option>
-        <option value="option3">Option 3</option>
-      </select>
-
+        <option value="option1">Calendar</option>
+        </select>
       <label htmlFor="dropdown4">Reaminder Type</label>
       <select id="dropdown4" name="dropdown4">
         <option value="option1">Notification</option>

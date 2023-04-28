@@ -1,6 +1,6 @@
 .rectangle-form {
   display: flex;
-  flex-direction:column;
+  flex-wrap: wrap;
   align-items: flex-start;
   gap: 1rem;
   padding: 5rem;
@@ -22,7 +22,7 @@
   width: 50%;
   border: 1px solid #ccc;
   border-radius: 0.25rem;
-  background-color: #fff;
+  background-color:white;
   box-shadow: none;
   outline: none;
 }
