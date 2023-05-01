@@ -61,11 +61,15 @@ export default DropdownMenu;
 */
 
 
-import React from 'react';
-
+import React,{useState} from 'react';
+import Calendar from 'react-calendar';
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
 import './DropdownMenu.css';
 
 export default function DropdownMenu() {
+    const [date,setDate]=useState(new Date());
+    
     
   return (
     <div className="rectangle-form">
@@ -84,7 +88,7 @@ export default function DropdownMenu() {
 
       <label htmlFor="dropdown3">Medicine Expiry Date</label>
       <select id="dropdown3" name="dropdown3">
-        <option value="option1">Calendar</option>
+        <option value="option1"><Calendar value={date}/></option>
         </select>
       <label htmlFor="dropdown4">Reaminder Type</label>
       <select id="dropdown4" name="dropdown4">
