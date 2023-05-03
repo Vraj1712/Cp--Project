@@ -10,7 +10,7 @@ function Navbar() {
             <ul>
                 <CustomLink to="/Home">Home</CustomLink>
                 <CustomLink to="/AddReaminder">Add Reaminder</CustomLink>
-                <CustomLink to="/NearbyNGO's">Nearby NGO's</CustomLink>
+                <CustomLink to="https://www.google.com/maps/search/nearby+ngos/@23.177035,72.644708,14z/data=!3m1!4b1">Nearby NGO's</CustomLink>
                 <CustomLink to="/MYLists">My Lists</CustomLink>
                 <CustomLink to="/Login">Login/Sign-Up</CustomLink>
                 
